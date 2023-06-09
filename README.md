@@ -9,6 +9,8 @@ Helpful for cleaning a project.
 
 [See the sister application here to delete Intermediate folders.](https://github.com/Vaei/DeleteIntermediate)
 
+![example](https://github.com/Vaei/DeleteBinaries/blob/files/helper_example.png)
+
 ## How to Use
 
 1. Create a shortcut to `DeleteBinaries\DeleteBinaries\bin\Release\net6.0\DeleteBinaries.exe`
