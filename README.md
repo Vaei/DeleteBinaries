@@ -1,5 +1,5 @@
 # DeleteBinaries
-Deletes a project's binary folders (including plugins)
+Deletes a project's binaries folders (including plugins)
 
 The purpose is to have a shortcut that when executed will delete all "Binaries" folders from the project and all plugins.
 
