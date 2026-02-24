@@ -1,7 +1,7 @@
 ﻿/*
     MIT License
 
-    Copyright (c) 2022-2023 Jared Taylor
+    Copyright (c) 2022 Jared Taylor
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -49,6 +49,10 @@ if (Directory.Exists(ProjectDir))
             Console.WriteLine(e.Message);
         }
     }
-    Console.WriteLine("Deleted " + Num.ToString() + " directories. Press any key to continue...");
-    Console.ReadKey();
+    Console.WriteLine("Deleted " + Num + " directories.");
+    if (!args.Contains("-nowait", StringComparer.OrdinalIgnoreCase))
+    {
+        Console.WriteLine("Press any key to continue...");
+        Console.ReadKey();
+    }
 }

@@ -14,6 +14,7 @@ Helpful for cleaning a project.
 ## How to Use
 
 1. Clone & Build from .sln using Visual Studio 2022
-2. Create a shortcut to `DeleteBinaries\DeleteBinaries\bin\Release\net6.0\DeleteBinaries.exe`
+2. Create a shortcut to `DeleteBinaries\DeleteBinaries\bin\Release\net9.0\DeleteBinaries.exe`
+	* Optionally add a -nowait flag if you don't want it to wait for input after completion
 3. Place it in your project folder alongside the `.uproject` file
 4. Clear the "Start In" field. This is vitally important, it will not work otherwise. This field must be empty.
